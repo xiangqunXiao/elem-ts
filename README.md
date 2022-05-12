@@ -5,10 +5,13 @@
 - error info in terminal:
 
 ```
-src/components/HelloWorld.vue
-   6:3   error  'ElMessage' is not defined                                    no-undef
-  13:13  error  'ElInput' is not defined                                      no-undef
-  20:13  error  'ElTag' is not defined                                        no-undef
+Oops! Something went wrong! :(
+
+ESLint: 8.15.0
+
+ESLint couldn't find the config "./.eslintrc-auto-import.json" to extend from. Please check that the name of the config is correct.
+
+The config "./.eslintrc-auto-import.json" was referenced from the config file in ".eslintrc".
 ```
 
 # Vue 3 + TypeScript + Vite
