@@ -1,14 +1,15 @@
 # Bug repoduce
+
 - install dependency: `pnpm install`
 - run lint command: `pnpm lint`
 - error info in terminal:
+
 ```
 src/components/HelloWorld.vue
    6:3   error  'ElMessage' is not defined                                    no-undef
   13:13  error  'ElInput' is not defined                                      no-undef
   20:13  error  'ElTag' is not defined                                        no-undef
 ```
-
 
 # Vue 3 + TypeScript + Vite
 

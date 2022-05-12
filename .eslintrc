@@ -11,7 +11,8 @@
     "plugin:vue/vue3-recommended",
     "eslint:recommended",
     "@vue/typescript/recommended",
-    "@vue/prettier"
+    "@vue/prettier",
+    "./.eslintrc-auto-import.json"
   ],
   "parserOptions": {
     "ecmaVersion": 2021,
